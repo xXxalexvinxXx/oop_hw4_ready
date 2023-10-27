@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class StudentController implements UserController{
+public class StudentController implements UserController<Student>{
 
     private final StudentService studentService = new StudentService();
     private final StudentView studentView = new StudentView();

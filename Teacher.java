@@ -14,8 +14,8 @@ public class Teacher extends User implements Comparable<Teacher>{
     @Override
     public String toString() {
         return "Teacher{" +
-                "teacherId=" + teacherId +
-                "firstName='" + super.getFirstName() + '\'' +
+                "teacherId= " + teacherId +
+                ", firstName='" + super.getFirstName() + '\'' +
                 ", secondName='" + super.getSecondName() + '\'' +
                 ", lastName='" + super.getLastName() + '\'' +
                 '}';

@@ -17,5 +17,8 @@ public class Main {
         teacherController.create("tfn3", "tsn3", "tln3");
         studentController.getAllStudents();
         teacherController.getAllTeachers();
+        studentController.printAllStudent();
+        System.out.println("\n");
+        teacherController.printAllTeachers();
     }
 }
